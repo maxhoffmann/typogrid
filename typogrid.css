@@ -715,29 +715,27 @@
 
 /* ALIGNMENT */
 
-.col--left,
-.row--top {
-  align-items: flex-start;
-}
+.align-start { align-items: flex-start }
+.align-center { align-items: center }
+.align-end { align-items: flex-end }
+.align-baseline { align-items: baseline }
+.align-around { align-items: space-around }
+.align-between { align-items: space-between }
 
-.col--center,
-.row--middle {
-  align-items: center;
-}
+.justify-start { justify-content: flex-start }
+.justify-center { justify-content: center }
+.justify-end { justify-content: flex-end }
+.justify-baseline { justify-content: baseline }
+.justify-around { justify-content: space-around }
+.justify-between { justify-content: space-between }
 
-.col--right,
-.row--bottom {
-  align-items: flex-end;
-}
+.self-start    { align-self: flex-start; }
+.self-end      { align-self: flex-end; }
+.self-center   { align-self: center; }
+.self-baseline { align-self: baseline; }
 
-.row--baseline {
-  align-items: baseline;
-}
-
-.self--start    { align-self: flex-start; }
-.self--end      { align-self: flex-end; }
-.self--center   { align-self: center; }
-.self--baseline { align-self: baseline; }
+.rows { flex-direction: row }
+.columns { flex-direction: column; }
 
 /* TYPO */
 
