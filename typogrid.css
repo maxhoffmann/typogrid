@@ -706,9 +706,9 @@
   margin-right: -1rem;
 }
 @media (max-width: 60em) {
-  .grow.self--end,
-  .grow.self--start,
-  .grow.self--center {
+  .grow.self-end,
+  .grow.self-start,
+  .grow.self-center {
     width: 100%;
   }
 }
