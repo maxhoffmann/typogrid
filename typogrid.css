@@ -738,3 +738,123 @@
 .self--end      { align-self: flex-end; }
 .self--center   { align-self: center; }
 .self--baseline { align-self: baseline; }
+
+/* TYPO */
+
+.typo > h1 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 2.625rem;
+  line-height: 3rem;
+}
+.typo > h2 {
+  margin-top: 1rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.625rem;
+  line-height: 2rem;
+}
+.typo > h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+.typo > h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.typo > h5,
+.typo > h6 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+}
+.typo > h5 {
+  text-transform: uppercase;
+}
+
+.typo > p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.75rem;
+}
+
+.typo > blockquote {
+  margin: 1rem 0 2rem;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  font-weight: bold;
+}
+.typo > blockquote > p {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  text-align: right;
+  font-weight: normal;
+}
+.typo > blockquote > p::before {
+  content: '— ';
+}
+
+.typo > ul {
+  margin: 0 0 1rem 1rem;
+  padding: 0;
+}
+.typo > ul ul {
+  margin: 0;
+  padding: 0 0 0 1rem;
+}
+.typo > ul li {
+  line-height: 2rem;
+}
+
+.typo > pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 2rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  word-wrap: normal;
+  overflow-y: hidden; // hide vertical
+  overflow-x: auto;
+  background-color: #f7f7f7;
+}
+.typo > pre > code {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-family: Consolas, Monaco, Courier, monospace;
+  font-feature-settings: "kern" 0, "liga" 0;
+  word-break: inherit;
+  background-color: inherit;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  tab-size: 2;
+  hyphens: none;
+}
+.typo > pre > code:before,
+.typo > pre > code:after {
+  display: none;
+}
+
+.typo code {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  font-family: Consolas, Monaco, Andale Mono, monospace;
+  word-wrap: break-word;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+.typo code:before,
+.typo code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
