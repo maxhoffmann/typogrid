@@ -824,6 +824,7 @@
   overflow-y: hidden; // hide vertical
   overflow-x: auto;
   background-color: #f7f7f7;
+  border-radius: 2px;
 }
 .typo > pre > code {
   margin: 0;
