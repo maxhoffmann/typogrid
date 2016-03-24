@@ -99,6 +99,19 @@
 .below-9 { padding-bottom: 9rem }
 .below-10 { padding-bottom: 10rem }
 
+@media (max-width: 60em) {
+  .mobile-col-1 { width: 10% }
+  .mobile-col-2 { width: 20% }
+  .mobile-col-3 { width: 30% }
+  .mobile-col-4 { width: 40% }
+  .mobile-col-5 { width: 50% }
+  .mobile-col-6 { width: 60% }
+  .mobile-col-7 { width: 70% }
+  .mobile-col-8 { width: 80% }
+  .mobile-col-9 { width: 90% }
+  .mobile-col-10 { width: 100% }
+}
+
 @media (min-width: 60em) {
 
   .col-1 { width: 10% }
@@ -737,7 +750,43 @@
 .rows { flex-direction: row }
 .columns { flex-direction: column; }
 
+@media (max-width: 60rem) {
+  .mobile-left { margin-right: auto; }
+  .mobile-center { margin-left: auto; margin-right: auto; }
+  .mobile-right { margin-left: auto; }
+
+  .mobile-align-start { align-items: flex-start }
+  .mobile-align-center { align-items: center }
+  .mobile-align-end { align-items: flex-end }
+  .mobile-align-baseline { align-items: baseline }
+  .mobile-align-around { align-items: space-around }
+  .mobile-align-between { align-items: space-between }
+
+  .mobile-justify-start { justify-content: flex-start }
+  .mobile-justify-center { justify-content: center }
+  .mobile-justify-end { justify-content: flex-end }
+  .mobile-justify-baseline { justify-content: baseline }
+  .mobile-justify-around { justify-content: space-around }
+  .mobile-justify-between { justify-content: space-between }
+
+  .mobile-self-start    { align-self: flex-start; }
+  .mobile-self-end      { align-self: flex-end; }
+  .mobile-self-center   { align-self: center; }
+  .mobile-self-baseline { align-self: baseline; }
+
+  .mobile-rows { flex-direction: row }
+  .mobile-columns { flex-direction: column; }
+}
+
 /* TYPO */
+
+@media (max-width: 60rem) {
+  .typo {
+    max-width: 32rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 .typo > h1 {
   margin-top: 0;
