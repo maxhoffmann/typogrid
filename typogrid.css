@@ -77,27 +77,29 @@
   margin-right: -1rem;
 }
 
-.above-1 { padding-top: 1rem }
-.above-2 { padding-top: 2rem }
-.above-3 { padding-top: 3rem }
-.above-4 { padding-top: 4rem }
-.above-5 { padding-top: 5rem }
-.above-6 { padding-top: 6rem }
-.above-7 { padding-top: 7rem }
-.above-8 { padding-top: 8rem }
-.above-9 { padding-top: 9rem }
-.above-10 { padding-top: 10rem }
+@media (min-width: 60em) {
+  .above-1 { padding-top: 1rem }
+  .above-2 { padding-top: 2rem }
+  .above-3 { padding-top: 3rem }
+  .above-4 { padding-top: 4rem }
+  .above-5 { padding-top: 5rem }
+  .above-6 { padding-top: 6rem }
+  .above-7 { padding-top: 7rem }
+  .above-8 { padding-top: 8rem }
+  .above-9 { padding-top: 9rem }
+  .above-10 { padding-top: 10rem }
 
-.below-1 { padding-bottom: 1rem }
-.below-2 { padding-bottom: 2rem }
-.below-3 { padding-bottom: 3rem }
-.below-4 { padding-bottom: 4rem }
-.below-5 { padding-bottom: 5rem }
-.below-6 { padding-bottom: 6rem }
-.below-7 { padding-bottom: 7rem }
-.below-8 { padding-bottom: 8rem }
-.below-9 { padding-bottom: 9rem }
-.below-10 { padding-bottom: 10rem }
+  .below-1 { padding-bottom: 1rem }
+  .below-2 { padding-bottom: 2rem }
+  .below-3 { padding-bottom: 3rem }
+  .below-4 { padding-bottom: 4rem }
+  .below-5 { padding-bottom: 5rem }
+  .below-6 { padding-bottom: 6rem }
+  .below-7 { padding-bottom: 7rem }
+  .below-8 { padding-bottom: 8rem }
+  .below-9 { padding-bottom: 9rem }
+  .below-10 { padding-bottom: 10rem }
+}
 
 @media (max-width: 60em) {
   .mobile-col-1 { width: 10% }
@@ -777,6 +779,28 @@
 
   .mobile-rows { flex-direction: row }
   .mobile-columns { flex-direction: column; }
+
+  .mobile-above-1 { padding-top: 1rem }
+  .mobile-above-2 { padding-top: 2rem }
+  .mobile-above-3 { padding-top: 3rem }
+  .mobile-above-4 { padding-top: 4rem }
+  .mobile-above-5 { padding-top: 5rem }
+  .mobile-above-6 { padding-top: 6rem }
+  .mobile-above-7 { padding-top: 7rem }
+  .mobile-above-8 { padding-top: 8rem }
+  .mobile-above-9 { padding-top: 9rem }
+  .mobile-above-10 { padding-top: 10rem }
+
+  .mobile-below-1 { padding-bottom: 1rem }
+  .mobile-below-2 { padding-bottom: 2rem }
+  .mobile-below-3 { padding-bottom: 3rem }
+  .mobile-below-4 { padding-bottom: 4rem }
+  .mobile-below-5 { padding-bottom: 5rem }
+  .mobile-below-6 { padding-bottom: 6rem }
+  .mobile-below-7 { padding-bottom: 7rem }
+  .mobile-below-8 { padding-bottom: 8rem }
+  .mobile-below-9 { padding-bottom: 9rem }
+  .mobile-below-10 { padding-bottom: 10rem }
 }
 
 /* TYPO */
