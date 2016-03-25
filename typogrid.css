@@ -734,6 +734,7 @@
 .align-baseline { align-items: baseline }
 .align-around { align-items: space-around }
 .align-between { align-items: space-between }
+.align-stretch { align-items: stretch }
 
 .justify-start { justify-content: flex-start }
 .justify-center { justify-content: center }
