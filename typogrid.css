@@ -813,6 +813,10 @@
   }
 }
 
+.typo {
+  font-size: 1rem;
+}
+
 .typo > *:first-child {
   margin-top: 0;
 }
@@ -855,7 +859,6 @@
 .typo > p {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-size: 1rem;
   line-height: 1.75rem;
 }
 
