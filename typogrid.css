@@ -800,26 +800,26 @@
   line-height: 3rem;
 }
 .typo > h2 {
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 0.75rem;
   font-size: 1.625rem;
   line-height: 2rem;
 }
 .typo > h3 {
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
   margin-bottom: 0.75rem;
   font-size: 1.25rem;
   line-height: 1.5rem;
 }
 .typo > h4 {
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
   margin-bottom: 0.5rem;
   font-size: 1rem;
   line-height: 1.5rem;
 }
 .typo > h5,
 .typo > h6 {
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
   font-size: 0.8125rem;
   line-height: 1rem;
@@ -836,7 +836,7 @@
 }
 
 .typo > blockquote {
-  margin: 1rem 0 2rem;
+  margin: 2rem 0 2rem;
   font-size: 1.25rem;
   line-height: 2rem;
   font-weight: bold;
@@ -868,8 +868,8 @@
 }
 
 .typo > pre {
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   padding: 2rem;
   margin-left: -1rem;
   margin-right: -1rem;
