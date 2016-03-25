@@ -852,15 +852,18 @@
   content: '— ';
 }
 
-.typo > ul {
+.typo > ul,
+.typo > ol {
   margin: 0 0 1rem 1rem;
   padding: 0;
 }
-.typo > ul ul {
+.typo > ul ul,
+.typo > ol ol {
   margin: 0;
   padding: 0 0 0 1rem;
 }
-.typo > ul li {
+.typo > ul li,
+.typo > ol li {
   line-height: 2rem;
 }
 
