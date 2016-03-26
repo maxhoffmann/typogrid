@@ -102,20 +102,19 @@
 }
 
 @media (max-width: 60em) {
-  .mobile-col-1 { width: 10% }
-  .mobile-col-2 { width: 20% }
-  .mobile-col-3 { width: 30% }
-  .mobile-col-4 { width: 40% }
-  .mobile-col-5 { width: 50% }
-  .mobile-col-6 { width: 60% }
-  .mobile-col-7 { width: 70% }
-  .mobile-col-8 { width: 80% }
-  .mobile-col-9 { width: 90% }
-  .mobile-col-10 { width: 100% }
+ .mobile-col-1 { width: 100%; max-width: 6rem }
+ .mobile-col-2 { width: 100%; max-width: 9rem }
+ .mobile-col-3 { width: 100%; max-width: 12rem }
+ .mobile-col-4 { width: 100%; max-width: 15rem }
+ .mobile-col-5 { width: 100%; max-width: 18rem }
+ .mobile-col-6 { width: 100%; max-width: 21rem }
+ .mobile-col-7 { width: 100%; max-width: 24rem }
+ .mobile-col-8 { width: 100%; max-width: 27rem }
+ .mobile-col-9 { width: 100%; max-width: 30rem }
+ .mobile-col-10 { width: 100%; max-width: 33rem }
 }
 
 @media (min-width: 60em) {
-
   .col-1 { width: 10% }
   .col-2 { width: 20% }
   .col-3 { width: 30% }
@@ -129,7 +128,6 @@
   .col-fill { flex: 1 }
 
   /* OFFSET */
-
   .left-1 { margin-left: 10% }
   .left-2 { margin-left: 20% }
   .left-3 { margin-left: 30% }
@@ -151,7 +149,6 @@
   .right-9 { margin-right: 90% }
 
   /* NESTED ROWS */
-
   .row > .col > .row {
     margin-left: -1rem;
     margin-right: -1rem;
@@ -215,7 +212,6 @@
   }
 
   /* NESTED OFFSET */
-
   .col-2 > .row > .left-1 { margin-left: calc(100% / 2 * 1) }
 
   .col-3 > .row > .left-1 { margin-left: calc(100% / 3 * 1) }
@@ -305,7 +301,6 @@
   .col-9 > .row > .right-8 { margin-right: calc(100% / 9 * 8) }
 
   /* NESTED COLUMNS */
-
   .col-1 > .col-1,
   .col-1 > .col-2,
   .col-1 > .col-3,
@@ -454,7 +449,6 @@
   .col-9 > .col-9 { width: calc((100% - 16rem) / 9 * 9 + 16rem) }
 
   /* GROW */
-
   .col-1 > .grow,
   .col-2 > .grow,
   .col-3 > .grow,
@@ -805,14 +799,6 @@
 
 /* TYPO */
 
-@media (max-width: 60rem) {
-  .typo {
-    max-width: 32rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
 .typo {
   font-size: 1rem;
 }
@@ -842,7 +828,6 @@
 .typo > h4 {
   margin-top: 2.5rem;
   margin-bottom: 0.5rem;
-  font-size: 1rem;
   line-height: 1.5rem;
 }
 .typo > h5,
@@ -903,8 +888,9 @@
   font-size: 1rem;
   line-height: 1.5rem;
   word-wrap: normal;
-  overflow-y: hidden; // hide vertical
+  overflow-y: hidden; /* hide vertical */
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   background-color: #f7f7f7;
   border-radius: 2px;
 }
@@ -915,6 +901,7 @@
   font-family: Consolas, Monaco, Courier, monospace;
   font-feature-settings: "kern" 0, "liga" 0;
   word-break: inherit;
+  word-wrap: normal;
   background-color: inherit;
   direction: ltr;
   text-align: left;
@@ -940,4 +927,12 @@
 .typo code:after {
   letter-spacing: -0.2em;
   content: "\00a0";
+}
+
+.typo hr {
+  height: 0.1rem;
+  border: 0;
+  background-color: #eee;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
