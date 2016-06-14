@@ -866,7 +866,7 @@
 
 .typo > ul,
 .typo > ol {
-  margin: 0 0 1rem 1rem;
+  margin: 0 0 1rem 1.2rem;
   padding: 0;
 }
 .typo > ul ul,
